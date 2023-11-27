@@ -11,7 +11,8 @@ Using this JavaScript method, you can easily add your own links.
     window.open(link, '_blank');
   }
 ```
-![image](https://github.com/itsmadson/Booklet-Share/assets/67187216/34f768ee-ba0a-4215-9044-1935a752f58b)
+![image](https://github.com/itsmadson/Booklet-Share/assets/67187216/1ee9ff75-fd46-4423-9831-f244c2e2f334)
+
 
 Additionally, you can deploy this app from web to mobile effortlessly. Simply upload your files to [tiiny host](https://tiiny.host), generate a link, and convert it into an app using [median](https://median.co). Share the installable package with others to extend the convenience of accessing booklets on mobile devices.
 
