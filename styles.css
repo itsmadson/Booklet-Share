@@ -1,0 +1,180 @@
+/* Custom styles for Lesson Booklets */
+
+body {
+    font-family: 'Kaghaz', sans-serif;
+    background-color: #000000;
+  }
+  
+  .container {
+    max-width: 700px;
+    background: rgba(195, 195, 195, 0.16);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    font-size:3ch;
+    
+  }
+  
+  header{
+    color: rgb(0, 255, 204);
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+  }
+  
+  .nav-tabs {
+    margin-top: 20px;
+  
+  }
+  
+  .nav-tabs .nav-item {
+    margin-bottom: -1px;
+  }
+  
+  .nav-tabs .nav-link {
+    border: 1px solid #ddd;
+    border-radius: 5px 5px 0 0;
+    color: rgb(0, 255, 204);
+  }
+  
+  .nav-tabs .nav-link.active {
+    background-color: rgba(0, 255, 204, 0.076);
+    border-color: #ddd #ddd #f8f9fa;
+    color: #ffffff;
+  }
+  
+  .tab-pane {
+    padding: 20px;
+    border-radius: 0 0 5px 5px;
+    background-color: #d2a32100;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .lecture-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .lecture-list-item {
+    margin-bottom: 10px;
+  }
+  
+  .btn-primary {
+    background-color: rgb(0, 255, 204);
+    color: #000000;
+    border: none;
+    width: 200px;
+    font-size:1.5ch;
+  }
+  
+  .btn-primary:hover {
+    background-color: rgb(0, 140, 112);
+  }
+
+
+
+
+  /* background stuff in motion and G */
+  
+
+@keyframes move-background {
+  from {
+		-webkit-transform: translate3d(0px, 0px, 0px);
+	}
+	to { 
+		-webkit-transform: translate3d(1000px, 0px, 0px);
+	}
+}
+@-webkit-keyframes move-background {
+  from {
+		-webkit-transform: translate3d(0px, 0px, 0px);
+	}
+	to { 
+		-webkit-transform: translate3d(1000px, 0px, 0px);
+	}
+}
+
+@-moz-keyframes move-background {    
+	from {
+		-webkit-transform: translate3d(0px, 0px, 0px);
+	}
+	to { 
+		-webkit-transform: translate3d(1000px, 0px, 0px);
+	}
+}
+
+    @-webkit-keyframes move-background {
+	from {
+		-webkit-transform: translate3d(0px, 0px, 0px);
+	}
+	to { 
+		-webkit-transform: translate3d(1000px, 0px, 0px);
+	}
+}
+
+.background-container{
+	position: fixed;
+	top: 0;
+	left:0;
+	bottom: 0;
+	right: 0;
+  z-index: -3;
+}
+
+.stars {
+ background: black url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
+ position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: block;
+  	z-index: 0;
+}
+
+.twinkling{
+	width:10000px;
+	height: 100%;
+	background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png") repeat;
+	background-size: 1000px 1000px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    
+    -moz-animation:move-background 70s linear infinite;
+  -ms-animation:move-background 70s linear infinite;
+  -o-animation:move-background 70s linear infinite;
+  -webkit-animation:move-background 70s linear infinite;
+  animation:move-background 70s linear infinite;
+	
+}
+
+.clouds{
+	width:10000px;
+	height: 100%;
+	background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/clouds_repeat.png") repeat;
+	background-size: 1000px 1000px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 3;
+
+   -moz-animation:move-background 150s linear infinite;
+  -ms-animation:move-background 150s linear infinite;
+  -o-animation:move-background 150s linear infinite;
+  -webkit-animation:move-background 150s linear infinite;
+  animation:move-background 150s linear infinite;
+}
+img{
+  height: 70vh;
+  width:70vh;
+  position: absolute;
+  z-index: 3;
+  right: 20px;
+}

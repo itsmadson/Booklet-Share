@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson Booklets</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>جزوات و فایل ها</h1>
+  </header>
+
+
+
+<!-- Lesson Tabs -->
+<div class="container mt-4">
+  <ul class="nav nav-tabs" id="lessonTabs">
+    <li class="nav-item">
+      <a class="nav-link active" id="physics-tab" data-toggle="tab" href="#physics" onclick="loadLesson('physics')">فیزیک۱</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="math-tab" data-toggle="tab" href="#math" onclick="loadLesson('math')">ریاضی ۱</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="computer-tab" data-toggle="tab" href="#computer" onclick="loadLesson('computer')">مبانی کامپیوتر</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="discrete-tab" data-toggle="tab" href="#discrete" onclick="loadLesson('discrete')">ساختمان گسسته</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="english-tab" data-toggle="tab" href="#english" onclick="loadLesson('english')">زبان</a>
+    </li>
+  </ul>
+
+  <!-- Tab Content -->
+  <div class="tab-content" id="lessonTabsContent">
+    <div class="tab-pane fade show active" id="physics"></div>
+    <div class="tab-pane fade" id="math"></div>
+    <div class="tab-pane fade" id="computer"></div>
+    <div class="tab-pane fade" id="discrete"></div>
+    <div class="tab-pane fade" id="english"></div>
+  </div>
+</div>
+<!--Background stuff-->
+<div class="background-container">
+  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/moon2.png" alt="">
+  <div class="stars"></div>
+  <div class="twinkling"></div>
+  <div class="clouds"></div>
+</div>  
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
