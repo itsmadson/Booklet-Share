@@ -5,6 +5,7 @@ const lessonData = {
     'discrete': ['Lec1', 'Lec2', 'Lec3'],
     'english' : ['Lec1', 'Lec2', 'Lec3']
   };
+
   
   function loadLesson(lesson) {
     const lessonContent = document.getElementById(`${lesson}`);
