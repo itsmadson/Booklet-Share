@@ -5,7 +5,6 @@ Booklet Share is a user-friendly web application designed to simplify the proces
 Using this JavaScript method, you can easily add your own links.
 ```
   function showLecture(physics, Lec1) {
-    // Assuming you want to redirect to google.com
     const link = 'Your link';
     window.open(link, '_blank');
   }
