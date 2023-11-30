@@ -5,7 +5,7 @@ Booklet Share is a user-friendly web application designed to simplify the proces
 Using this JavaScript method, you can easily add your own links.
 ```
 const lessonLinks = {
-  'english': {
+  'lesson': {
     'Lec1': 'Ur link',
 }
 ```
