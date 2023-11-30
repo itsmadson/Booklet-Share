@@ -4,10 +4,10 @@ Booklet Share is a user-friendly web application designed to simplify the proces
 
 Using this JavaScript method, you can easily add your own links.
 ```
-  function showLecture(physics, Lec1) {
-    const link = 'Your link';
-    window.open(link, '_blank');
-  }
+const lessonLinks = {
+  'english': {
+    'Lec1': 'Ur link',
+}
 ```
 ![image](https://github.com/itsmadson/Booklet-Share/assets/67187216/4fd7f5c7-dcea-4681-9364-71a9cc16fef2)
 
